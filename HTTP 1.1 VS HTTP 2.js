@@ -10,18 +10,3 @@ different types of information.
 One of the most significant features that distinguishes HTTP/1.1 and HTTP/2 is the binary framing layer.As opposed to HTTP/1.1, which keeps all requests and responses in 
 plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, while still maintaining HTTP semantics, such as verbs, methods, 
 and headers.
-
-
-Objects and its internal representation in Javascript:
-
-Objects : All JavaScript values, except primitives, are objects. Objects are variables too. Object values are written as name : value pairs(name and value separated by a colon).
-For example let person = {firstName:"Arjun", lastName:"Barman", age:24, hairColor:"black"};
-Hence we can say A JavaScript object is a collection of named values. 
-
-Object Properties : The named values, in JavaScript objects, are called properties. For example
-property==> firstName ,  property value==> Arjun ,  property==> lastName ,  property value==> Barman ,
-
-Object Methods : Methods are actions that can be performed on objects. An object method is an object property containing a function definition.
-fullName	function() {return this.firstName + " " + this.lastName;}
-Hence we can say JavaScript objects are containers for named values, having properties and methods.
-
