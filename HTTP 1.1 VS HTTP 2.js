@@ -6,7 +6,6 @@ In response, the server sends a resource like an HTML page back to the client. A
 HTML files by transmitting hypertext messages between clients and servers. Each HTTP request made across the Internet carries with it a series of encoded data that carries 
 different types of information.
 
-
 One of the most significant features that distinguishes HTTP/1.1 and HTTP/2 is the binary framing layer.As opposed to HTTP/1.1, which keeps all requests and responses in 
 plain text format, HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, while still maintaining HTTP semantics, such as verbs, methods, 
 and headers.
